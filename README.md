@@ -17,6 +17,7 @@ This version is compatible with python 3 and I added an exposure changing step f
 * Image
 * Matplotlib
 * Pyyaml
+* Easydict
 * g++ (< 5.0)
 
 ## Requirements: hardware
