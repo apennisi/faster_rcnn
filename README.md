@@ -3,6 +3,10 @@
 This is an experimental Tensorflow implementation of Faster RCNN - a convnet for object detection with a region proposal network.
 For details about R-CNN please refer to the paper [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](http://arxiv.org/pdf/1506.01497v3.pdf) by Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun.
 
+This is a modified version of this fast rcnn: <a href="https://github.com/smallcorgi/Faster-RCNN_TF" target="_blank">Faster-RCNN_TF</a>.
+
+This version is compatible with python 3 and I added an exposure changing step for augmenting the images in the dataset.
+
 
 ## Requirements:
 
@@ -154,7 +158,7 @@ ln -s $VOCdevkit VOCdevkit2007
 
 Download pre-trained  model: <a href="https://drive.google.com/open?id=1tSECsv2gnwo-S-xXR7VKANoAvY11MO8p" target="_blank">here</a>.
 
-Move the model to the folder <i>data/pretrain_model</i>.
+Extract the model to the folder <i>data/pretrain_model</i>.
 
 To run the training/testing you have to run the script faster_rcnn_checkout.sh from the root directiory Faster-RCNN
 ```bash
@@ -179,7 +183,7 @@ __C.TRAIN.USE_EXPOSURE = True
 
 ```
 
-<strong>!!!!!IMPORTANT: </strong> if you test several configuration please delete each time the folder "cache" inside "data"
+<strong>IMPORTANT: </strong> if you test several configuration please delete each time the folder "cache" inside "data"
 
 ## Demo
 
@@ -190,11 +194,3 @@ python ./tools/demo.py --model model_path
 ```
 
 <strong>IMPORTANT: </strong> I suggest to train again the network starting from this model.
-   
-   
-
-
-
-
-
-
