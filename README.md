@@ -184,7 +184,7 @@ __C.TRAIN.USE_EXPOSURE = True
 
 ```
 
-<strong>IMPORTANT: </strong> if you test several configuration please delete each time the folder "cache" inside "data"
+<strong>IMPORTANT: </strong> if you test several configurations please delete each time the folder "cache" inside "data"
 
 ## Demo
 
