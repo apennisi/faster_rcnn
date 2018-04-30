@@ -142,6 +142,8 @@ wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCdevkit_08-Jun-2007.tar
 ```
 
+If the scripts do not work, you can download the dataset from <a href="https://pjreddie.com/projects/pascal-voc-dataset-mirror/" target="_blank">here</a>.
+
 Extract all of these tars into one directory named `VOCdevkit`
 
 ```Shell
